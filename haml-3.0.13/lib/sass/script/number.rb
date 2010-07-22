@@ -39,7 +39,7 @@ module Sass::Script
     # For example, if this is `1000.0`,
     # `3.1415926` will be printed as `3.142`.
     # @api public
-    PRECISION = 1000.0
+    PRECISION = 10000.0
 
     # @param value [Numeric] The value of the number
     # @param numerator_units [Array<String>] See \{#numerator\_units}
